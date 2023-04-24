@@ -1,0 +1,47 @@
+/* body {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }   */
+  #signup{
+    width: 450px;
+  }
+
+  h1 {
+      margin-bottom: 20px;
+      font-weight: normal;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: solid rgb(186, 186, 186) 1px;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+  button[type="submit"] {
+      background-color: #0072ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+      background-color: #00c6ff;
+  }
